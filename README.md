@@ -10,6 +10,8 @@
 - Clone the repositorie
 > git clone git@github.com:mrcthiel/fullsim_hepmc.git
 
+> mv fullsim_hepmc/* .
+
 > scram b -j8
 
 - Copy a hepmc file example:
