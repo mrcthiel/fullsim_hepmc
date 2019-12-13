@@ -1,4 +1,4 @@
-# Instructions to run the fullsim with hepmc input
+### Instructions to run the fullsim with hepmc input
 
 set the release:
 cmsrel CMSSW_9_4_13
