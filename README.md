@@ -1,8 +1,11 @@
-# fullsim with hepmc input
+# Instructions to run the fullsim with hepmc input
 
+set the release:
 cmsrel CMSSW_9_4_13
 cd CMSSW_9_4_13/src
 cmsenv
+
+clone the repositorie
 git clone git@github.com:mrcthiel/fullsim_hepmc.git
 scram b -j8
 
