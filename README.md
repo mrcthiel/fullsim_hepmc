@@ -12,7 +12,7 @@
 
 > scram b -j8
 
-- Copy a hepmc file:
+- Copy a hepmc file example:
 > cp /afs/cern.ch/user/m/mthiel/private/hepmc.hepmc .
 
 The inputHepMC EDFilter is placed in the directorie inputHepMC/. **It just works for FPMC and WW and ZZ procces.** One can define the decay channel in the GEN-SIM step setting the number of muons, electron and quarks decay particles. For example the semileptoncic channel, considering muon as lepton, can be run like this: 
@@ -28,6 +28,7 @@ for the next steps just do:
 > cmsRun step1_PAT.py # it produce the miniAOD file
 
 **This files are basically the same used in the RunIIFall17 Campaign.**
+
 **To run high statitcs one have to add more minimum bias files in the step1_DIGIPREMIX_S2_DATAMIX_L1_DIGI2RAW_HLT.py config file.**
 
 
